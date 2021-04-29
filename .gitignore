@@ -136,4 +136,4 @@ dmypy.json
 *.sqlite3
 
 .idea/
-./data
+data/
