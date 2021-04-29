@@ -139,5 +139,4 @@ dmypy.json
 
 
 .env.dev
-data/
 /data/
