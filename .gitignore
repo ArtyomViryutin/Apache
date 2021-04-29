@@ -136,7 +136,8 @@ dmypy.json
 *.sqlite3
 
 .idea/
+
+
 .env.dev
 data/
-data/db/
-./data/
+/data/
