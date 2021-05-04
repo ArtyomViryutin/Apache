@@ -27,4 +27,5 @@ def parse_apache_log_file(filename='file.txt'):
                 kwargs = pattern.match(line).groupdict()
                 create_log(**kwargs)
                 spinner.next()
+            print()
 
