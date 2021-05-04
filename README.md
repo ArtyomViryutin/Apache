@@ -3,7 +3,8 @@ Parse Apache log files
 
 ## Installation
 
-1) git clone https://github.com/ArtyomViryutin/Apache.git
+1) `git clone https://github.com/ArtyomViryutin/Apache.git`
+
 
 2) In the project folder create .env.dev file and set up following variables:
 
@@ -25,8 +26,15 @@ Parse Apache log files
 
 `DATABASE_PORT=5432`
 
-3) $ docker-compose up --build
+3) `$ docker-compose up --build`
 
 ## Usage
+### Parse Apache log file
+`$ docker-compose exec web python manage.py parse <url_1 url_2 url_3...>`
 
-1) 
+### Get results
+
+1) `$ docker-compose exec web python manage.py createsuperuser`
+   
+
+2) http://localhost:8000/admin/
