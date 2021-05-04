@@ -26,7 +26,8 @@ Parse Apache log files
 
    `DATABASE_PORT=5432`
 
-   3) `$ docker-compose up --build`
+
+3) `$ docker-compose up --build`
 
 ## Usage
 ### Parse Apache log file
