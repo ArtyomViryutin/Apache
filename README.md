@@ -8,25 +8,25 @@ Parse Apache log files
 
 2) In the project folder create .env.dev file and set up following variables:
 
-`SECRET_KEY=<Your SECRET_KEY>`
+   `SECRET_KEY=<Your SECRET_KEY>`
 
-`DEBUG=<0 or 1>`
+   `DEBUG=<0 or 1>`
 
-`ALLOWED_HOSTS=<e.g. localhost 127.0.0.1>`
+   `ALLOWED_HOSTS=<e.g. localhost 127.0.0.1>`
 
-`DATABASE_ENGINE=django.db.backends.postgresql`
+   `DATABASE_ENGINE=django.db.backends.postgresql`
 
-`DATABASE_NAME=postgres`
+   `DATABASE_NAME=postgres`
 
-`DATABASE_USER=postgres`
+   `DATABASE_USER=postgres`
 
-`DATABASE_PASSWORD=postgres`
+   `DATABASE_PASSWORD=postgres`
 
-`DATABASE_HOST=db`
+   `DATABASE_HOST=db`
 
-`DATABASE_PORT=5432`
+   `DATABASE_PORT=5432`
 
-3) `$ docker-compose up --build`
+   3) `$ docker-compose up --build`
 
 ## Usage
 ### Parse Apache log file
